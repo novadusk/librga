@@ -1,3 +1,19 @@
+# librga
+
+**Rockchip RGA 用户态接口与预编译库，用于图像缩放、旋转、拷贝和混合。**
+
+Rockchip · IM2D · 2D acceleration
+
+[中文 API](docs/Rockchip_Developer_Guide_RGA_CN.md) · [English API](docs/Rockchip_Developer_Guide_RGA_EN.md) · [示例](samples/) · [预编译库](libs/)
+
+先核对目标 SoC、RGA 驱动版本与 ABI，再选用 `libs/` 下的库。`include/` 提供 C/C++ 头文件，完整适配信息见下方上游说明。
+
+> novadusk 的 fork · 上游：[airockchip/librga](https://github.com/airockchip/librga) · 分支：`main`。以下上游文档中的状态、徽章与发布链接指向原项目。
+
+---
+
+## 上游文档
+
 ## librga
 
 RGA (Raster Graphic Acceleration Unit)是一个独立的2D硬件加速器，可用于加速点/线绘制，执行图像缩放、旋转、bitBlt、alpha混合等常见的2D图形操作。本仓库代码实现了RGA用户空间驱动，并提供了一系列2D图形操作API。
@@ -159,4 +175,3 @@ Rockchip RK1808 | RV1126 | RV1109 | RK3399 | RK3399pro | RK3566 | RK3568 | RK358
   [RGA_FAQ【中文】](docs/Rockchip_FAQ_RGA_CN.md)
 
   [RGA_FAQ【英文】](docs/Rockchip_FAQ_RGA_EN.md)
-
